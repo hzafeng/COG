@@ -3,6 +3,11 @@ import re
 import math
 from scipy import stats
 import argparse
+from string import ascii_letters
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 what_i_do = "a script to annotate A list of Genomes with COG database"
 parser = argparse.ArgumentParser(description=what_i_do)
 parser.add_argument('-i', dest='input_files', type=str, nargs='+',
