@@ -9,7 +9,7 @@ A script to annotate A list of Genomes with COG database and Enrichment Analysis
 optional arguments:
   -h, --help  show this help message and exit
   
-  -i INPUT_FILES [INPUT_FILES ...]  input genome file in fasta(required) e.g. <dir>*.fasta
+  -i INPUT_FILES [INPUT_FILES ...]  input genome file in fasta(required) 
   
   -db LOCAL_DB  local COG database dir(required)
   
